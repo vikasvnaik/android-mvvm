@@ -16,7 +16,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.mvvm"
+        applicationId "com.rideclub"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode rootProject.ext.versionCode
