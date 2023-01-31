@@ -25,17 +25,17 @@ android {
 
         stage {
             dimension = 'env'
-            applicationId "com.rideclub.dev"
+            applicationId "com.mvvm.dev"
             buildConfigField "String", "BASE_URL", "\"http://api.weatherstack.com/\""
         }
         preprod {
             dimension = 'env'
-            applicationId "com.rideclub.qa"
+            applicationId "com.mvvm.qa"
             buildConfigField "String", "BASE_URL", "\"http://api.weatherstack.com/\""
         }
         prod {
             dimension = 'env'
-            applicationId "com.rideclub.prod"
+            applicationId "com.mvvm.prod"
             buildConfigField "String", "BASE_URL", "\"http://api.weatherstack.com/\""
         }
     }
